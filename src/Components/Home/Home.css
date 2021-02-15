@@ -1,0 +1,81 @@
+.Box {
+  width:33.3vw;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+  align-content: stretch;
+  border-radius: 3em;
+}
+
+.content {
+  /* background: skyblue; */
+
+}
+
+
+
+#box1 {
+  background:rgba(0, 0, 0, 0.55);
+}
+
+#box2 {
+  background:rgba(0, 0, 0, 0.55);
+}
+
+#box3 {
+  background:rgba(0, 0, 0, 0.60);
+}
+
+.BoxStack {
+  border-radius: 2em;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+
+.FieldContent{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+  height:91vh;
+}
+
+.Icon {
+  margin-top: 3em;
+  width:4em;
+}
+
+
+.title {
+  height: 5em;
+  width: 10em;
+  /* background: slategray; */
+  font-family: 'Poppins', sans-serif;
+}
+
+.heroBody {
+  height: 20em;
+  width: 25vw;
+  font-family: 'Lato', sans-serif;
+  /* background: slategray */
+}
+
+#HomeField {
+  background-image:url('../../Assets/nicewall.svg') ;
+  background-size:cover;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+  background-repeat: no-repeat;
+}
